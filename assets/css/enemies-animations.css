@@ -1,0 +1,1404 @@
+
+@keyframes enemy-tree-bug {
+  0% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/tree-bug-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+}
+@-moz-keyframes enemy-tree-bug {
+  0% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/tree-bug-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+}
+@-webkit-keyframes enemy-tree-bug {
+  0% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/tree-bug-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+}
+@-o-keyframes enemy-tree-bug {
+  0% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/tree-bug-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+}
+@-ms-keyframes enemy-tree-bug {
+  0% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/tree-bug-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/tree-bug-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/tree-bug-1.png");
+  }
+}
+
+/*********/
+
+@keyframes enemy-dark-spectre {
+  100% {
+    background-image: url("../img/enemies/dark-spectre-1.png");
+  }
+  75% {
+    background-image: url("../img/enemies/dark-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/dark-spectre-3.png");
+  }
+  25% {
+    background-image: url("../img/enemies/dark-spectre-4.png");
+  }
+  0% {
+    background-image: url("../img/enemies/dark-spectre-5.png");
+  }
+}
+@-moz-keyframes enemy-dark-spectre {
+  100% {
+    background-image: url("../img/enemies/dark-spectre-1.png");
+  }
+  75% {
+    background-image: url("../img/enemies/dark-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/dark-spectre-3.png");
+  }
+  25% {
+    background-image: url("../img/enemies/dark-spectre-4.png");
+  }
+  0% {
+    background-image: url("../img/enemies/dark-spectre-5.png");
+  }
+}
+@-webkit-keyframes enemy-dark-spectre {
+  100% {
+    background-image: url("../img/enemies/dark-spectre-1.png");
+  }
+  75% {
+    background-image: url("../img/enemies/dark-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/dark-spectre-3.png");
+  }
+  25% {
+    background-image: url("../img/enemies/dark-spectre-4.png");
+  }
+  0% {
+    background-image: url("../img/enemies/dark-spectre-5.png");
+  }
+}
+@-o-keyframes enemy-dark-spectre {
+  100% {
+    background-image: url("../img/enemies/dark-spectre-1.png");
+  }
+  75% {
+    background-image: url("../img/enemies/dark-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/dark-spectre-3.png");
+  }
+  25% {
+    background-image: url("../img/enemies/dark-spectre-4.png");
+  }
+  0% {
+    background-image: url("../img/enemies/dark-spectre-5.png");
+  }
+}
+@-ms-keyframes enemy-dark-spectre {
+  100% {
+    background-image: url("../img/enemies/dark-spectre-1.png");
+  }
+  75% {
+    background-image: url("../img/enemies/dark-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/dark-spectre-3.png");
+  }
+  25% {
+    background-image: url("../img/enemies/dark-spectre-4.png");
+  }
+  0% {
+    background-image: url("../img/enemies/dark-spectre-5.png");
+  }
+}
+
+/*********/
+
+@keyframes enemy-giant {
+  0% {
+    background-image: url("../img/enemies/giant-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/giant-4.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/giant-10.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  100% {
+   background-image: url("../img/enemies/giant-2.png");
+  }
+}
+@-moz-keyframes enemy-giant {
+ 0% {
+    background-image: url("../img/enemies/giant-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/giant-4.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/giant-10.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  100% {
+   background-image: url("../img/enemies/giant-2.png");
+  }
+}
+@-webkit-keyframes enemy-giant {
+ 0% {
+    background-image: url("../img/enemies/giant-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/giant-4.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/giant-10.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  100% {
+   background-image: url("../img/enemies/giant-2.png");
+  }
+}
+@-o-keyframes enemy-giant {
+ 0% {
+    background-image: url("../img/enemies/giant-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/giant-4.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/giant-10.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  100% {
+   background-image: url("../img/enemies/giant-2.png");
+  }
+}
+@-ms-keyframes enemy-giant {
+  0% {
+    background-image: url("../img/enemies/giant-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/giant-4.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/giant-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/giant-2.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/giant-10.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/giant-9.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/giant-8.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/giant-7.png");
+  }
+  100% {
+   background-image: url("../img/enemies/giant-2.png");
+  }
+}
+
+/********/
+
+@keyframes enemy-lake-demon {
+  0% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+  20% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  40% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  60% {
+    background-image: url("../img/enemies/lake-demon-4.png");
+  }
+  80% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  95% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+}
+@-moz-keyframes enemy-lake-demon {
+  0% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+  20% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  40% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  60% {
+    background-image: url("../img/enemies/lake-demon-4.png");
+  }
+  80% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  95% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+}
+@-webkit-keyframes enemy-lake-demon {
+  0% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+  20% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  40% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  60% {
+    background-image: url("../img/enemies/lake-demon-4.png");
+  }
+  80% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  95% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+}
+@-o-keyframes enemy-lake-demon {
+  0% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+  20% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  40% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  60% {
+    background-image: url("../img/enemies/lake-demon-4.png");
+  }
+  80% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  95% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+}
+@-ms-keyframes enemy-lake-demon {
+  0% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+  20% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  40% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  60% {
+    background-image: url("../img/enemies/lake-demon-4.png");
+  }
+  80% {
+    background-image: url("../img/enemies/lake-demon-3.png");
+  }
+  95% {
+    background-image: url("../img/enemies/lake-demon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/lake-demon-1.png");
+  }
+}
+
+/********/
+
+@keyframes enemy-ragbag {
+  0% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  25% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  50% {
+    background-image: url("../img/enemies/ragbag-7.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  75% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  100% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+}
+@-moz-keyframes enemy-ragbag {
+  0% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  25% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  50% {
+    background-image: url("../img/enemies/ragbag-7.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  75% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  100% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+}
+@-webkit-keyframes enemy-ragbag {
+  0% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+  8.33% {
+    background-image: url("../img/enemies/ragbag-2.png");
+  }
+  16.66% {
+    background-image: url("../img/enemies/ragbag-3.png");
+  }
+  24.99% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  33.32% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  41.65% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  49.98% {
+    background-image: url("../img/enemies/ragbag-7.png");
+  }
+  58.31% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  66.64% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  74.97% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  83.3% {
+    background-image: url("../img/enemies/ragbag-3.png");
+  }
+  91.63% {
+    background-image: url("../img/enemies/ragbag-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+}
+@-o-keyframes enemy-ragbag {
+  0% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  25% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  50% {
+    background-image: url("../img/enemies/ragbag-7.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  75% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  100% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+}
+@-ms-keyframes enemy-ragbag {
+   0% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  25% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  50% {
+    background-image: url("../img/enemies/ragbag-7.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/ragbag-6.png");
+  }
+  75% {
+    background-image: url("../img/enemies/ragbag-5.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/ragbag-4.png");
+  }
+  100% {
+    background-image: url("../img/enemies/ragbag-1.png");
+  }
+}
+
+/**********/
+
+@keyframes enemy-dragon {
+  0% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/mount-dragon-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+}
+@-moz-keyframes enemy-dragon {
+  0% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/mount-dragon-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+}
+@-webkit-keyframes enemy-dragon {
+  0% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/mount-dragon-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+}
+@-o-keyframes enemy-dragon {
+  0% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/mount-dragon-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+}
+@-ms-keyframes enemy-dragon {
+  0% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/mount-dragon-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/mount-dragon-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/mount-dragon-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/mount-dragon-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/mount-dragon-1.png");
+  }
+}
+
+/*********/
+
+@keyframes enemy-whom-bat {
+  0% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-forest-spectre-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+}
+@-moz-keyframes enemy-whom-bat {
+   0% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-forest-spectre-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+}
+@-webkit-keyframes enemy-whom-bat {
+   0% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-forest-spectre-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+}
+@-o-keyframes enemy-whom-bat {
+  0% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-forest-spectre-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+}
+@-ms-keyframes enemy-whom-bat {
+  0% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-forest-spectre-3.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-forest-spectre-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+  }
+}
+
+/*********/
+
+
+@keyframes enemy-shadow-head {
+  0% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-head-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+}
+@-moz-keyframes enemy-shadow-head {
+  0% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-head-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+}
+@-webkit-keyframes enemy-shadow-head {
+  0% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-head-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+}
+@-o-keyframes enemy-shadow-head {
+  0% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-head-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+}
+@-ms-keyframes enemy-shadow-head {
+   0% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+  12.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  25% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  37.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  50% {
+    background-image: url("../img/enemies/shadow-head-5.png");
+  }
+  62.5% {
+    background-image: url("../img/enemies/shadow-head-4.png");
+  }
+  75% {
+    background-image: url("../img/enemies/shadow-head-3.png");
+  }
+  87.5% {
+    background-image: url("../img/enemies/shadow-head-2.png");
+  }
+  100% {
+    background-image: url("../img/enemies/shadow-head-1.png");
+  }
+}
+
+
+
+/*********/
+
+
+@keyframes enemy-spider {
+  0% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/spider-7.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  100% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+}
+@-moz-keyframes enemy-spider {
+  0% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/spider-7.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  100% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+}
+@-webkit-keyframes enemy-spider {
+  0% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/spider-7.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  100% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+}
+@-o-keyframes enemy-spider {
+   0% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/spider-7.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  100% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+}
+@-ms-keyframes enemy-spider {
+   0% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  7.69% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  15.38% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  23.07% {
+    background-image: url("../img/enemies/spider-2.png");
+  }
+  30.76% {
+    background-image: url("../img/enemies/spider-3.png");
+  }
+  38.45% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  46.14% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  53.83% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  61.52% {
+    background-image: url("../img/enemies/spider-7.png");
+  }
+  69.21% {
+    background-image: url("../img/enemies/spider-6.png");
+  }
+  76.81% {
+    background-image: url("../img/enemies/spider-5.png");
+  }
+  84.5% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+  92.19% {
+    background-image: url("../img/enemies/spider-1.png");
+  }
+  100% {
+    background-image: url("../img/enemies/spider-4.png");
+  }
+}
+
+/****************/
+
+@keyframes enemy-horse-barbarian {
+  0% {
+    background-image: url("../img/enemies/barbaria-1.png");
+  }
+  16.66% {
+    background-image: url("../img/enemies/barbaria-2.png");
+  }
+  33.32% {
+    background-image: url("../img/enemies/barbaria-3.png");
+  }
+  49.98% {
+    background-image: url("../img/enemies/barbaria-4.png");
+  }
+  66.64% {
+    background-image: url("../img/enemies/barbaria-5.png");
+  }
+  83.3% {
+    background-image: url("../img/enemies/barbaria-6.png");
+  }
+  100% {
+    background-image: url("../img/enemies/barbaria-7.png");
+  }
+}
+@-moz-keyframes enemy-horse-barbarian {
+  0% {
+    background-image: url("../img/enemies/barbaria-1.png");
+  }
+  16.66% {
+    background-image: url("../img/enemies/barbaria-2.png");
+  }
+  33.32% {
+    background-image: url("../img/enemies/barbaria-3.png");
+  }
+  49.98% {
+    background-image: url("../img/enemies/barbaria-4.png");
+  }
+  66.64% {
+    background-image: url("../img/enemies/barbaria-5.png");
+  }
+  83.3% {
+    background-image: url("../img/enemies/barbaria-6.png");
+  }
+  100% {
+    background-image: url("../img/enemies/barbaria-7.png");
+  }
+}
+@-webkit-keyframes enemy-horse-barbarian {
+  0% {
+    background-image: url("../img/enemies/barbaria-1.png");
+  }
+  16.66% {
+    background-image: url("../img/enemies/barbaria-2.png");
+  }
+  33.32% {
+    background-image: url("../img/enemies/barbaria-3.png");
+  }
+  49.98% {
+    background-image: url("../img/enemies/barbaria-4.png");
+  }
+  66.64% {
+    background-image: url("../img/enemies/barbaria-5.png");
+  }
+  83.3% {
+    background-image: url("../img/enemies/barbaria-6.png");
+  }
+  100% {
+    background-image: url("../img/enemies/barbaria-7.png");
+  }
+}
+@-o-keyframes enemy-horse-barbarian {
+  0% {
+    background-image: url("../img/enemies/barbaria-1.png");
+  }
+  16.66% {
+    background-image: url("../img/enemies/barbaria-2.png");
+  }
+  33.32% {
+    background-image: url("../img/enemies/barbaria-3.png");
+  }
+  49.98% {
+    background-image: url("../img/enemies/barbaria-4.png");
+  }
+  66.64% {
+    background-image: url("../img/enemies/barbaria-5.png");
+  }
+  83.3% {
+    background-image: url("../img/enemies/barbaria-6.png");
+  }
+  100% {
+    background-image: url("../img/enemies/barbaria-7.png");
+  }
+}
+@-ms-keyframes enemy-horse-barbarian {
+  0% {
+    background-image: url("../img/enemies/barbaria-1.png");
+  }
+  16.66% {
+    background-image: url("../img/enemies/barbaria-2.png");
+  }
+  33.32% {
+    background-image: url("../img/enemies/barbaria-3.png");
+  }
+  49.98% {
+    background-image: url("../img/enemies/barbaria-4.png");
+  }
+  66.64% {
+    background-image: url("../img/enemies/barbaria-5.png");
+  }
+  83.3% {
+    background-image: url("../img/enemies/barbaria-6.png");
+  }
+  100% {
+    background-image: url("../img/enemies/barbaria-7.png");
+  }
+}

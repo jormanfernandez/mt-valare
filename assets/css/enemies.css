@@ -1,0 +1,153 @@
+div.enemies-holder {
+  position: relative;
+  margin-top: -38%;
+  width: 950px;
+  left: 2.5%;
+  border-radius: 115px;
+  height: 55%;
+  padding: 17%;
+}
+div.enemy-life {
+  text-align: center;
+}
+div.enemy-life div.bar {
+  width: 90%;
+  left: 0;
+  margin: auto;
+  height: 9px;
+  border-radius: 5px;
+  background-color: rgb(29, 0, 0);
+  overflow: hidden;
+  transition: border 0.25s ease-out;
+}
+div.enemy-life div.bar div {
+  background-color: #b10404;
+}
+div.enemy-life p {
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  width: 80%;
+  margin-top: -1px;
+  text-align: center;
+}
+div.enemy {
+  position: absolute;
+  padding: 3px;
+  color: black;
+  transition: all 0.3s;
+}
+div.enemy > div:not(.enemy-life) {
+  transition: border ease-in-out 0.3s;
+  border-radius: 15px;
+}
+div.enemy > div:not(.enemy-life) span {
+  color: white;
+  text-shadow: 0px 0px 6px rgba(0,0,0,1);
+}
+div.enemy > p {
+  cursor: pointer;
+}
+.text-looted {
+  color: yellow !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+.is-looted {
+  border-left: 4px ridge rgba(202, 95, 4, 0.75);
+  border-right: 4px ridge rgba(202, 95, 4, 0.75);
+}
+div.enemy-info > p {
+	color: white;
+	margin: 2px;
+	background-color: #616161;
+}
+div.enemy-description {
+	padding: 3px;
+	background-color: #3e3e3e;
+	color: white;
+	border-radius: 3px;
+	text-align: justify;
+	word-break: keep-all;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+div.enemy-holder {
+	width: 700px !important;
+}
+div.enemy-figure {
+  animation-iteration-count: infinite;
+  position: relative;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+div.tree-bug {
+  width: 60px;
+  height: 60px;
+  animation-name: enemy-tree-bug;
+  animation-duration: 0.6s;
+  background-image: url("../img/enemies/tree-bug-1.png");
+}
+div.dark-spectre {
+  width: 123px;
+  height: 200px;
+  animation-name: enemy-dark-spectre;
+  animation-duration: 1s;
+  background-image: url("../img/enemies/dark-spectre-5.png");
+}
+div.giant-enemy {
+  width: 124px;
+  height: 228px;
+  animation-name: enemy-giant;
+  animation-duration: 3s;
+  background-image: url("../img/enemies/giant-1.png");
+}
+div.lake-demon {
+  width: 116px;
+  height: 131px;
+  animation-name: enemy-lake-demon;
+  animation-duration: 1.5s;
+  background-image: url("../img/enemies/lake-demon-1.png");
+}
+div.ragbag {
+  width: 68px;
+  height: 162px;
+  animation-name: enemy-ragbag;
+  animation-duration: 2.5s;
+  background-image: url("../img/enemies/ragbag-1.png");
+}
+div.dragon {
+  width: 418px;
+  height: 208px;
+  animation-name: enemy-dragon;
+  animation-duration: 2.5s;
+  background-image: url("../img/enemies/mount-dragon-1.png");
+}
+div.whom-bat {
+  width: 119px;
+  height: 82px;
+  animation-name: enemy-whom-bat;
+  animation-duration: 0.8s;
+  background-image: url("../img/enemies/shadow-forest-spectre-1.png");
+}
+div.shadow-head {
+  width: 75px;
+  height: 130px;
+  animation-name: enemy-shadow-head;
+  animation-duration: 1.5s;
+  background-image: url("../img/enemies/shadow-head-1.png");
+}
+div.spider {
+  width: 100px;
+  height: 91px;
+  animation-name: enemy-spider;
+  animation-duration: 3s;
+  background-image: url("../img/enemies/spider-1.png");
+}
+div.horse-barbarian {
+  width: 200px;
+  height: 200px;
+  animation-name: enemy-horse-barbarian;
+  animation-duration: 0.6s;
+  background-image: url("../img/enemies/barbaria-1.png")
+}

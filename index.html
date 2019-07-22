@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Mt. Valare</title>
+        <link href="" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="assets/css/app.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/enemies.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/enemies-animations.css" rel="stylesheet" type="text/css"/>
+
+        <script type="text/javascript" src="script/vue-dev.js"></script>
+        <script type="text/javascript" src="script/app.js"></script>
+
+        <style>
+            div.loading-screen {
+                z-index: 999999;
+                text-align: center;
+                background-color: #272727;
+            }
+            div.loading-screen p {
+                margin-top: 20%;
+                font-size: 60px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="loading-screen">
+            <p>Cargando...</p>
+        </div>
+
+        <div id="box">
+
+            <div class="img_logo">
+                <span>{{time}}</span>
+                <div class="character-life">
+                  <span>Fuerza: {{strength}}</span>
+                  <span>Vida: {{lifePoints}} / {{characters.self.maxHealth}}</span>
+                  <div :class="['bar', {'border-alert':  lifeBar < 20.00}]">
+                      <div :class="{blinking: lifeBar < 20.00}" :style="'width: '+lifeBar+'%'">&nbsp;</div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="menu_container">
+                <header>
+
+                    <label class="labelMenu" @click="showEnemyList = true">
+                        <div name="parent" class="icon enemies-info" title="Mostrar enemigos">
+                            <span>
+                                &nbsp;
+                            </span>
+                        </div>
+                    </label>
+
+                    <label class="labelMenu" @click="loadGame">
+                        <div class="icon load_game" name="parent" title="Cargar ultimo juego salvado">
+                            <span>
+                                &nbsp;
+                            </span>
+                        </div>
+                    </label>
+
+                    <label class="labelMenu" @click="showInventory=(lifeBar > 0.00 ? true : false)">
+                        <div class="icon inventory_bag" name="parent" title="Mostrar Inventario">
+                            <span>
+                                &nbsp;
+                            </span>
+                        </div>
+                    </label>
+
+                </header>
+            </div>
+            <!--
+                <input type="button" @click="spawnEnemies({'tree-bug': 3})" value="Enemigos">
+            <!---->
+
+            <div ref="main-content" class="content">
+                <div v-if="lifeBar > 0.00">
+                    <background-image
+                        :chapter_title="chapters[index.chapter].title"
+                        :background="actualBackground"
+                        ></background-image>
+                    <div
+                    v-show="(actualStage.from == 'self' && actualStage.showAvatar) || actualStage.from != 'self'"
+                    class="dialog-from noselect">
+                        <img
+                        :src="characterAvatar(actualStage.from)"
+                        :class="['sombra', {'shake': shakeAvatarImage}]"
+                        :alt="characterName(actualStage.from)">
+                        <br>
+                        <span class="sombra">{{characterName(actualStage.from)}}</span>
+                    </div>
+                    <hr>
+                    <text-box :info="actualStage"></text-box>
+                </div>
+                <div v-else class="im-dead noselect center">
+                    <p>HAS MUERTO</p>
+                </div>
+            </div>
+
+            <div v-show="showInventory" class="windows-holder">
+                <inventory></inventory>
+            </div>
+            <div v-show="showEnemyList" class="windows-holder">
+                <enemy-list></enemy-list>
+            </div>
+            <alert-boxes :alert_info="alertboxes" v-if="withAlerts"></alert-boxes>
+            <confirm-boxes :confirm_info="confirmboxes" v-if="withConfirms"></confirm-boxes>
+            <prompt-boxes :prompt_info="promptboxes" v-if="withPrompts"></prompt-boxes>
+            <window-set :info="windows" v-if="withWindows"></window-set>
+
+            <div class="footer">
+                <span>Mt. Valare</span>
+                <br>
+                <br>
+                <a :href="mail">Jorman Fernandez</a>
+            </div>
+        </div>
+
+    </body>
+</html>
